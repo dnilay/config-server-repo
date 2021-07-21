@@ -1,9 +1,9 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://user1:pass1234@localhost:8761/eureka
+      defaultZone: http://eureka:password@localhost:8761/eureka
 spring:
   boot:
     admin:
       client:
-        url: http://admin:admin@localhost:8888/
+        url: http://localhost:8888/
